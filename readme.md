@@ -30,7 +30,7 @@
 					* Spring Test ( JUnit )시에 class 경로 주지 않을 경우 @Configuration이 아닌 @SpringBootConfiguration이 붙은 클래스 위주로 탐색하게 됨. 따라서 spring boot에서는 @SpringBootConfiguration이나 그것을 포함한 것을 사용한다.
 		* @SpringBootApplication
 			* meta annotaion 
-				* @SprignBootApplication + @ComponentScan + @AutoConfiguration
+				* @SprignBootApplication + @ComponentScan + @EnableAutoConfiguration
 			* 여러 annotation 사용하기 보다 이거 하나 사용 
 
 * SpringApplication.run
