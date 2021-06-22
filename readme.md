@@ -44,7 +44,7 @@
 	5. interface ApplicationRunner 구현 bean 의 run() 실행
 		- 작성된 구현 class 사용 ( HelloWorldRunner)
 		```java
-			@Bean
+		@Bean
 		public ApplicationRunner applicationRunner() {
 			// 1. 작성된 구현 class 사용
 			return new HelloWorldRunner();
